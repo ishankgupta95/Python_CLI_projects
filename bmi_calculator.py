@@ -16,4 +16,4 @@ while True:
     else:
         weight = input('invalid, enter weight in KG: ')
 
-print(f'your bmi is {(weight/(height ** 2))}')
+print(f'your bmi is {round((weight/(height ** 2)), 2)}')
